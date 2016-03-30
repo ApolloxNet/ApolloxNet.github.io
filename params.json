@@ -1,6 +1,6 @@
 {
   "name": "Apollo技术博客 - GitHub.io",
-  "tagline": "网络与安全",
-  "body": "# ApolloxNet.github.io\r\n网络与安全\r\n",
+  "tagline": "TinyOS",
+  "body": "**（1）TinyOS仿真时假如出现**\r\n\r\n软件包 net.tinyos.message不存在\r\n\r\n1. 这种情况，首先看是否tinyos.sh中的路径设置完好，最好在其中写完整classpath路径。\r\n2. 注意，tinyos.sh中的回车若在windows环境下会出现问题，需要将文件放在linux环境下重新生成\r\n3. 如果还是解决不了问题，那就是tinyos.jar文件有bug，在linux环境下将这个文件复制出来，问题解决\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
